@@ -2,6 +2,7 @@ package cn.wwinter.springbootinaction.mapper.impl;
 
 import cn.wwinter.springbootinaction.domain.dto.*;
 import cn.wwinter.springbootinaction.domain.entities.*;
+import cn.wwinter.springbootinaction.mapper.AuthorMapper;
 import cn.wwinter.springbootinaction.mapper.Mapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
@@ -14,7 +15,7 @@ import org.springframework.stereotype.Component;
  * Author: zhangdd
  */
 @Component
-public class AuthorMapperImpl implements Mapper<AuthorEntity, AuthorDto> {
+public class AuthorMapperImpl implements AuthorMapper {
 
     private final ModelMapper modelMapper;
 
