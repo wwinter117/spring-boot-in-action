@@ -1,7 +1,7 @@
 package cn.wwinter.springbootinaction.services.impl;
 
-import cn.wwinter.springbootinaction.database.domain.entities.AuthorEntity;
-import cn.wwinter.springbootinaction.database.repositories.AuthorRepository;
+import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
+import cn.wwinter.springbootinaction.repositories.AuthorRepository;
 import cn.wwinter.springbootinaction.services.AuthorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

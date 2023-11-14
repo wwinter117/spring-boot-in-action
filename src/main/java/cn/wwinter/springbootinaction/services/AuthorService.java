@@ -1,6 +1,7 @@
 package cn.wwinter.springbootinaction.services;
 
-import cn.wwinter.springbootinaction.database.domain.entities.AuthorEntity;
+
+import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
 
 /**
  * ClassName: AuthorService

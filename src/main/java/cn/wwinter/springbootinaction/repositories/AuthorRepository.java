@@ -1,6 +1,6 @@
-package cn.wwinter.springbootinaction.database.repositories;
+package cn.wwinter.springbootinaction.repositories;
 
-import cn.wwinter.springbootinaction.database.domain.entities.BookEntity;
+import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -12,6 +12,6 @@ import org.springframework.stereotype.Repository;
  * AuthorEntity: zhangdd
  */
 @Repository
-public interface BookRepository extends CrudRepository<BookEntity, String> {
+public interface AuthorRepository extends CrudRepository<AuthorEntity, Long> {
 
 }

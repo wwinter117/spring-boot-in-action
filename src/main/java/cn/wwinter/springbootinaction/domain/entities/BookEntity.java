@@ -1,4 +1,4 @@
-package cn.wwinter.springbootinaction.database.domain.entities;
+package cn.wwinter.springbootinaction.domain.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * ClassName: AuthorEntity
+ * ClassName: BookDto
  * Package: cn.wwinter.springbootinaction.database.domain
  * Description:
  * Datetime: 2023/11/13
@@ -18,11 +18,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @Entity
-@Table(name = "authors")
-public class AuthorEntity {
+@Table(name = "books")
+public class BookEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "author_id_seq")
-    private Long id;
-    private String name;
-    private Integer age;
+    private String isbn;
+
+    private String title;
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "author_id")
+    private AuthorEntity author;
+
 }

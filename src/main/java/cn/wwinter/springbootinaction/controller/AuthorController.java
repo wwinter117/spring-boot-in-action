@@ -1,7 +1,7 @@
 package cn.wwinter.springbootinaction.controller;
 
-import cn.wwinter.springbootinaction.database.domain.dto.AuthorDto;
-import cn.wwinter.springbootinaction.database.domain.entities.AuthorEntity;
+import cn.wwinter.springbootinaction.domain.dto.*;
+import cn.wwinter.springbootinaction.domain.entities.*;
 import cn.wwinter.springbootinaction.mapper.Mapper;
 import cn.wwinter.springbootinaction.services.AuthorService;
 import lombok.extern.slf4j.Slf4j;
