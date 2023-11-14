@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "spring.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Description for spring.driver-class-name."
+    },
+    {
+      "name": "spring.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.url."
+    },
+    {
+      "name": "spring.username",
+      "type": "java.lang.String",
+      "description": "Description for spring.username."
+    },
+    {
+      "name": "spring.password",
+      "type": "java.lang.String",
+      "description": "Description for spring.password."
+    }
+  ] }
