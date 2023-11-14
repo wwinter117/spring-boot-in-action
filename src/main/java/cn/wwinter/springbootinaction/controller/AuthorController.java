@@ -7,9 +7,12 @@ import cn.wwinter.springbootinaction.services.AuthorService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 /**
  * ClassName: BookController
@@ -38,4 +41,10 @@ public class AuthorController {
         AuthorEntity saved = authorService.createAuthor(authorEntity);
         return new ResponseEntity<>(authorMapper.mapperTo(saved), HttpStatus.CREATED);
     }
+
+    @GetMapping("authors")
+    public List<AuthorDto> authors() {
+        return authorService.getAllAuthors();
+    }
+
 }

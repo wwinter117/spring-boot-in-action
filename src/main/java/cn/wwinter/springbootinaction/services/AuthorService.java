@@ -1,7 +1,10 @@
 package cn.wwinter.springbootinaction.services;
 
 
+import cn.wwinter.springbootinaction.domain.dto.AuthorDto;
 import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
+
+import java.util.List;
 
 /**
  * ClassName: AuthorService
@@ -12,4 +15,7 @@ import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
  */
 public interface AuthorService {
     AuthorEntity createAuthor(AuthorEntity authorEntity);
+
+    List<AuthorDto> getAllAuthors();
+
 }
