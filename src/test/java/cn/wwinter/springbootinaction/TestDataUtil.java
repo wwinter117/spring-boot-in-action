@@ -1,7 +1,8 @@
 package cn.wwinter.springbootinaction;
 
-import cn.wwinter.springbootinaction.database.domain.entities.AuthorEntity;
-import cn.wwinter.springbootinaction.database.domain.entities.BookEntity;
+
+import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
+import cn.wwinter.springbootinaction.domain.entities.BookEntity;
 
 /**
  * ClassName: TestDataUtil

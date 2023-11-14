@@ -1,9 +1,8 @@
 package cn.wwinter.springbootinaction.repositories;
 
 import cn.wwinter.springbootinaction.TestDataUtil;
-import cn.wwinter.springbootinaction.database.domain.entities.AuthorEntity;
-import cn.wwinter.springbootinaction.database.domain.entities.BookEntity;
-import cn.wwinter.springbootinaction.database.repositories.BookRepository;
+import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
+import cn.wwinter.springbootinaction.domain.entities.BookEntity;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package cn.wwinter.springbootinaction.controller;
 
 import cn.wwinter.springbootinaction.TestDataUtil;
-import cn.wwinter.springbootinaction.database.domain.entities.AuthorEntity;
+import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
