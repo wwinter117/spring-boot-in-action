@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    # MySQL database configuration.
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/baseTaste?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+# 设置日志输出路径
+logging:
+  file:
+    path: /Users/zhangdongdong/myProjects/logs/wwinterLog/wwinterApp.log
+
+

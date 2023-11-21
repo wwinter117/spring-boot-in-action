@@ -1,8 +1,8 @@
 package cn.wwinter.springbootinaction.services;
 
 
-import cn.wwinter.springbootinaction.domain.dto.AuthorDto;
-import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
+import cn.wwinter.springbootinaction.model.dto.AuthorDto;
+import cn.wwinter.springbootinaction.model.domain.AuthorEntity;
 
 import java.util.List;
 

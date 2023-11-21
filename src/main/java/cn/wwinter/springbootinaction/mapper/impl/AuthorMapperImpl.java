@@ -1,9 +1,8 @@
 package cn.wwinter.springbootinaction.mapper.impl;
 
-import cn.wwinter.springbootinaction.domain.dto.*;
-import cn.wwinter.springbootinaction.domain.entities.*;
+import cn.wwinter.springbootinaction.model.dto.*;
+import cn.wwinter.springbootinaction.model.domain.*;
 import cn.wwinter.springbootinaction.mapper.AuthorMapper;
-import cn.wwinter.springbootinaction.mapper.Mapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 

@@ -1,9 +1,8 @@
 package cn.wwinter.springbootinaction.services.impl;
 
-import cn.wwinter.springbootinaction.domain.dto.AuthorDto;
-import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
+import cn.wwinter.springbootinaction.model.dto.AuthorDto;
+import cn.wwinter.springbootinaction.model.domain.AuthorEntity;
 import cn.wwinter.springbootinaction.mapper.AuthorMapper;
-import cn.wwinter.springbootinaction.mapper.Mapper;
 import cn.wwinter.springbootinaction.repositories.AuthorRepository;
 import cn.wwinter.springbootinaction.services.AuthorService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package cn.wwinter.springbootinaction.repositories;
 
-import cn.wwinter.springbootinaction.domain.entities.AuthorEntity;
+import cn.wwinter.springbootinaction.model.domain.AuthorEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
